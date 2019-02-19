@@ -111,15 +111,15 @@ div.topContainer {
 
 .computer-image {
     width: 25%;
-    float: right;
-    margin-left: 2em;
+    float: left;
+    margin-right: 2em;
 
 }
 
 .eyeDropper-image {
     width: 25%;
-    float: left;
-    margin-right: 2em;
+    float: right;
+    margin-left: 2em;
 
 }
 
