@@ -1,0 +1,224 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;*/
+
+
+@font-face {
+    font-family: "BEATHRICE_FONT Reg";
+    src: url("../fonts/beathriceRegular.otf");
+    src: url("../fonts/beathriceRegular.ttf");
+}
+
+@font-face {
+    font-family: "AH_PUNCH_2.0-Regular";
+    src: url("../fonts/AH_PUNCH_2.0-Regular.otf");
+    src: url("../fonts/AH_PUNCH_2.0-Regular.ttf");
+}
+
+@font-face {
+    font-family: "CHRISTOPHER_FONT_2.0-Regular";
+    src: url("../fonts/CHRISTOPHER_FONT_2.0-Regular.otf");
+    src: url("../fonts/CHRISTOPHER_FONT_2.0-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514e;
+}
+
+P {
+    line-height: 2;
+}
+
+h1 {
+
+    font-family: "CHRISTOPHER_FONT_2.0-Regular", sans-serif;
+    font-size: 6rem;
+    font-weight: normal;
+    color: #11999e;
+    margin: 0;
+    padding-top: 15rem;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #11999e;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999e;
+    margin-bottom: 1em;
+    font-weight: bold;
+
+}
+
+hr {
+    border: none;
+    border-bottom: dotted;
+    margin: 5em auto;
+    width: 3%;
+    border-width: 6px;
+    color: darkgray;
+}
+.profile {
+
+    width: 30%;
+    margin: auto;
+
+}
+.skill-row {
+    width: 50%;
+    margin: 6.25em auto;
+    text-align: left;
+
+}
+
+
+/* to change the apostrophe in my title - font originally used looks bad with apostrophe*/
+.changeFont {
+    font-family: "AH_PUNCH_2.0-Regular", sans-serif;
+    /*font-family: "BEATHRICE_FONT Reg", sans-serif;*/
+    font-weight: lighter;
+    font-size: .75em;
+    padding-left: .1em;
+}
+
+div.topContainer {
+    background-color: #e4f9f5;
+    position: relative;
+    border: none;
+}
+
+
+.middle-container {
+    margin: 6.25em auto;
+}
+
+
+.computer-image {
+    width: 25%;
+    float: right;
+    margin-left: 2em;
+
+}
+
+.eyeDropper-image {
+    width: 25%;
+    float: left;
+    margin-right: 2em;
+
+}
+
+.bottomCloud {
+    left: 12em;
+    top: 40%;
+}
+
+.topCloud {
+    right: 12em;
+    top: 15%;
+}
+
+.cloud {
+    position: absolute;
+    background: url(../images/new_cloud.png) top left no-repeat;
+    /*width: 50vh;*/
+    /*height: 50vh;*/
+    width: 194px;
+    height: 120px;
+    -webkit-transition: all 2s ease-in-out;
+    transition: all 5s ease-in-out;
+    z-index: 3;
+    background-size: cover;
+}
+
+.animate-opacity {
+    animation: opac 4s}
+
+@keyframes opac {
+    from {opacity: 0}
+    to { opacity: 1}
+}
+
+
+.front {
+    position: relative;
+    z-index: 4;
+}
+
+.village {
+    margin-top: 5em;
+}
+
+/*Button Generated Code from www.designrush.com/resources/css3buttongenerator */
+
+.butn {
+    background: #21dae0;
+    background-image: -webkit-linear-gradient(top, #21dae0, #11999e);
+    background-image: -moz-linear-gradient(top, #21dae0, #11999e);
+    background-image: -ms-linear-gradient(top, #21dae0, #11999e);
+    background-image: -o-linear-gradient(top, #21dae0, #11999e);
+    background-image: linear-gradient(to bottom, #21dae0, #11999e);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.butn:hover {
+    background: #e4f9f5;
+    background-image: -webkit-linear-gradient(top, #e4f9f5, #b7f0e5);
+    background-image: -moz-linear-gradient(top, #e4f9f5, #b7f0e5);
+    background-image: -ms-linear-gradient(top, #e4f9f5, #b7f0e5);
+    background-image: -o-linear-gradient(top, #e4f9f5, #b7f0e5);
+    background-image: linear-gradient(to bottom, #e4f9f5, #b7f0e5);
+    text-decoration: none;
+}
+
+.butnDiv {
+    margin: 5em auto;
+}
+
+.bottom-container {
+    background-color: #11999e;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.footer-link {
+    padding-right: 30px;
+    color: #0a5a5c
+}
+
+.footer {
+    margin: 30px auto 20px auto;
+    color: #eaf6f6;
+}
+
+.contact-me {
+    width: 30%;
+    margin: auto;
+}
+
+
+
+
+
